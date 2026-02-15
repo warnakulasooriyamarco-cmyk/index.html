@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cuor Snack - Merendine Bio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-green-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-green-600 text-white shadow-md">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Cuor Snack</h1>
+      <nav class="space-x-6">
+        <a href="#home" class="hover:underline">Home</a>
+        <a href="#prodotti" class="hover:underline">Prodotti</a>
+        <a href="#azienda" class="hover:underline">Azienda</a>
+        <a href="#contatti" class="hover:underline">Contatti</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="py-20 px-6 text-center bg-gradient-to-b from-green-100 to-green-50">
+    <h2 class="text-4xl font-bold mb-6">Merendine Biologiche per Tutta la Famiglia</h2>
+    <p class="max-w-2xl mx-auto text-lg mb-8">
+      Cuor Snack produce merendine bio realizzate con ingredienti naturali,
+      senza conservanti artificiali e con materie prime selezionate.
+    </p>
+    <button class="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-2xl shadow-lg">
+      Scopri i Prodotti
+    </button>
+  </section>
+
+  <!-- Prodotti -->
+  <section id="prodotti" class="py-16 px-6 max-w-6xl mx-auto">
+    <h3 class="text-3xl font-bold text-center mb-12">I Nostri Prodotti</h3>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition">
+        <h4 class="text-xl font-semibold mb-3">Cuor Muffin Bio</h4>
+        <p>Muffin soffici con farina biologica e uova da allevamenti sostenibili.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition">
+        <h4 class="text-xl font-semibold mb-3">Cuor Crostatina Bio</h4>
+        <p>Crostatine con marmellata biologica senza zuccheri raffinati.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition">
+        <h4 class="text-xl font-semibold mb-3">Cuor Plumcake Bio</h4>
+        <p>Plumcake soffici con latte biologico e ingredienti naturali.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Azienda -->
+  <section id="azienda" class="py-16 px-6 bg-green-100">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-6">La Nostra Filosofia</h3>
+      <p class="text-lg">
+        Crediamo in un'alimentazione sana, sostenibile e rispettosa dell'ambiente.
+        Ogni prodotto Cuor Snack nasce da una filiera controllata e da ingredienti
+        provenienti da agricoltura biologica certificata.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contatti -->
+  <section id="contatti" class="py-16 px-6 max-w-4xl mx-auto">
+    <h3 class="text-3xl font-bold text-center mb-10">Contattaci</h3>
+
+    <form class="bg-white p-8 rounded-2xl shadow-md space-y-6">
+      <div>
+        <label class="block mb-2 font-semibold">Nome</label>
+        <input type="text" class="w-full border rounded-lg p-3" placeholder="Il tuo nome" />
+      </div>
+
+      <div>
+        <label class="block mb-2 font-semibold">Email</label>
+        <input type="email" class="w-full border rounded-lg p-3" placeholder="La tua email" />
+      </div>
+
+      <div>
+        <label class="block mb-2 font-semibold">Messaggio</label>
+        <textarea class="w-full border rounded-lg p-3" rows="4" placeholder="Scrivi il tuo messaggio"></textarea>
+      </div>
+
+      <button class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-xl shadow">
+        Invia Messaggio
+      </button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-600 text-white text-center py-6 mt-10">
+    <p>© 2026 Cuor Snack - Tutti i diritti riservati</p>
+  </footer>
+
+</body>
+</html>
